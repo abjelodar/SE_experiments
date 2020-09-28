@@ -23,11 +23,11 @@ Table 1. Classification accuracy of the various models on CIFAR10 for an average
 |Recurrent SE| 91.78 | 1.94X
 
 ## Usage
-0. Required packages.
-        - Pytorch 0.4.1
-        - other commonly used Python packages such as glob, pickle, etc.
-1. Download the [CIFAR10 dataset](cs.toronto.edu/~kriz/cifar.html) (batches and meta file) and place it in dataset/cifar10/.
-2. Use the below commands to run the code.
+- Required packages.
+  - Pytorch 0.4.1
+  - other commonly used Python packages such as glob, pickle, etc.
+- Download the [CIFAR10 dataset](cs.toronto.edu/~kriz/cifar.html) (batches and meta file) and place it in dataset/cifar10/.
+- Use the below commands to run the code.
 The command for training and evaluation is:
 ```
 python run.py --WITH_SE --SE_TYPE squeeze_recur --GPU 0
